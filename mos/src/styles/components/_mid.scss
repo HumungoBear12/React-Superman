@@ -1,0 +1,82 @@
+.banner-container {
+    align-items: center;
+    background: #e0e0e0;
+    display: flex;
+    flex-direction: row;
+    height: 65rem;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 2px black;
+  
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+  
+      .banner {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  
+    &:active {
+      .banner {
+        opacity: 0.5;
+  
+        &:hover {
+          box-shadow: 0px 0px 10px 6px black;
+          flex: 2 1;
+          font-size: 20pt;
+          opacity: 1;
+  
+          .banner-name {
+            flex: 0 0 60px;
+          }
+        }
+      }
+    }
+  
+    .banner {
+      background: none 50%;
+      background-size: cover;
+      box-shadow: 0 0 0 0 black;
+      display: flex;
+      flex: 1 1;
+      flex-direction: column;
+      font-size: 10pt;
+      height: 100%;
+      justify-content: flex-end;
+      transition: 0.3s;
+  
+      .banner-name {
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        display: flex;
+        flex: 1 1;
+        justify-content: center;
+        width: 100%;
+        transition: 0.3s;
+      }
+    }
+  
+    //  BANNER IMAGES
+    //  ================
+    #Batman-banner {
+      background-image: url(https://i.pinimg.com/564x/48/be/9a/48be9a621c4ae2f31ac71a90f1725dcb.jpg);
+    }
+  
+    #Super-banner {
+      background-image: url(https://i.pinimg.com/564x/c2/c7/d6/c2c7d64ce58f78448fa40bf158b9818a.jpg);
+    }
+  
+    #Wonder-banner {
+      background-image: url(https://i.pinimg.com/564x/fe/5c/8f/fe5c8fe72c49532260ae845249a8d1a8.jpg);
+    }
+  
+    // #Flash-banner {
+    //   background-image: url(https://www.themarysue.com/wp-content/uploads/2018/12/Aquaman-featured.jpg);
+    // }
+  }
+  
