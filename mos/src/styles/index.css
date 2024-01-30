@@ -203,7 +203,7 @@ body {
   width: 100%;
   background-image: url("https://wallpapercave.com/wp/Suzldiu.jpg");
   background-size: cover;
-  border-bottom: 0.5rem rgb(0, 0, 0) solid;
+  border-bottom: 0.5rem rgb(255, 255, 255) solid;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .container-home hr {
@@ -216,17 +216,17 @@ body {
 }
 .container-home .JL {
   width: 100%;
-  height: 40rem;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border-top: 1px black solid;
-  border-bottom: 1px black solid;
+  height: 35rem;
+  box-shadow: 2px 2px 2px 2px rgb(65, 65, 65);
+  border-top: 2px rgb(255, 255, 255) solid;
+  border-bottom: 2px rgb(255, 255, 255) solid;
 }
 .container-home .David {
   width: 100%;
   height: 35rem;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border-top: 1px black solid;
-  border-bottom: 1px black solid;
+  box-shadow: 2px 2px 2px 2px rgb(65, 65, 65);
+  border-top: 2px rgb(255, 255, 255) solid;
+  border-bottom: 2px rgb(255, 255, 255) solid;
 }
 .container-home .container-flex {
   display: flex;
@@ -253,29 +253,32 @@ body {
 }
 
 .navbar-container {
+  height: 7rem;
   display: flex;
   align-items: center;
   padding: 10px;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid rgb(255, 255, 255);
   box-shadow: 2px 2px 2px 2px black;
   background-color: rgb(0, 30, 55);
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .navbar-container .header {
   color: rgb(255, 255, 255);
-  font-size: 3rem;
+  font-size: 2rem;
   margin-left: 2rem;
   font-family: "Times New Roman", Times, serif;
 }
 .navbar-container .nav-flex {
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-left: auto;
+  margin-right: 2rem;
 }
 .navbar-container .nav-flex .nav-item {
   margin-left: auto;
+  padding: 20px;
   margin-right: auto;
   display: block;
   height: 100%;
@@ -284,6 +287,10 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
+}
+.navbar-container .nav-flex .nav-item:hover {
+  border-radius: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .container-article {
@@ -404,21 +411,21 @@ body {
 }
 
 .footer {
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border: black 2px solid;
+  box-shadow: 15px 15px 15px 15px black;
+  border-top: white 2px solid;
   width: 100%;
   height: 20rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(0, 30, 55);
+  background-color: rgb(0, 29, 52);
 }
 .footer .one h2 {
   margin-top: -30px;
   text-align: center;
   font-size: 5rem;
-  color: rgb(122, 0, 0);
+  color: rgb(188, 0, 0);
 }
 .footer .one hr {
   box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
@@ -438,11 +445,11 @@ body {
 }
 .footer .two {
   margin-top: -1rem;
-  color: rgb(122, 0, 0);
+  color: rgb(178, 0, 0);
 }
 .footer .tee {
   margin-top: -2.3rem;
-  color: rgb(122, 0, 0);
+  color: rgb(188, 0, 0);
 }
 
 .container-timeline {
@@ -522,7 +529,6 @@ body {
 .container-jl .jl {
   width: 100%;
   height: 50rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   margin-bottom: 2rem;
   border-radius: 0.75rem;
   display: flex;
@@ -532,6 +538,7 @@ body {
 .container-jl .jl p {
   width: 45%;
   height: 90%;
+  font-size: 1.03rem;
 }
 .container-jl .jl div {
   height: 90%;
@@ -561,27 +568,29 @@ body {
   font-size: 3rem;
   text-align: center;
   font-weight: bold;
-  color: rgb(0, 1, 87);
+  color: rgb(201, 0, 0);
+  padding: 15px;
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 .container-david div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   height: 50rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border-radius: 0.75rem;
-  padding: 15px;
 }
 .container-david div p {
-  width: 45%;
+  width: 49%;
   height: 95%;
-  border: 1px solid black;
   border-radius: 0.75rem;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .container-david div img {
   height: 95%;
-  width: 45%;
+  width: 49%;
   border-radius: 0.75rem;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }/*# sourceMappingURL=index.css.map */

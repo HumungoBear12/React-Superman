@@ -3,10 +3,37 @@ import React from 'react'
 const Justice = () => {
   return (
     <div className="container-jl">
-        <h2>Justice League</h2>
-        <hr />
+        {/* <h2>The Justice League</h2>
+        <hr /> */}
         <div className="jl">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus nisi dolorum cum rem quod facere officia quidem consequuntur vitae nobis? Veniam vel deleniti eos odio cum dignissimos fugiat voluptatum tenetur non. Alias, qui quo nobis minima nisi enim adipisci hic voluptates aliquid reprehenderit sint est sit nostrum obcaecati itaque facere eius debitis, voluptatum veritatis necessitatibus rerum ratione. Unde ipsam recusandae eum hic quo possimus quos est facilis a odit? Quod itaque expedita impedit nostrum nobis dolores sit? Corrupti ipsa, ratione facere unde in, adipisci reprehenderit ut odio, voluptates pariatur voluptatum nulla tenetur autem maxime. Beatae, amet! Architecto dolor ipsam vel porro sint consequuntur saepe doloremque quos sit quam sed doloribus cupiditate in nisi assumenda ut voluptates aut enim, facilis earum aperiam veniam rerum nihil est! Veritatis perspiciatis at quibusdam, libero illo molestiae voluptate totam iure, ratione quisquam suscipit perferendis nisi earum, temporibus quos neque nemo provident animi. Quibusdam delectus voluptatum sunt cumque ipsum inventore harum, ratione ut ullam vero doloribus repellat possimus nemo nam corporis illo laudantium eaque doloremque distinctio? Amet ipsa necessitatibus ad aut facilis fugit minus provident facere deleniti, eligendi porro nobis unde officiis consequatur quas dolor ex? Ab explicabo, quae distinctio totam temporibus cumque praesentium vero corporis? Optio ut, beatae temporibus et ratione delectus corporis sed aliquam ab suscipit? Exercitationem cumque magni eaque? Atque molestiae at, maiores laudantium ex ea esse alias ab quas fugit excepturi aperiam minima sint necessitatibus ullam error repellendus eveniet molestias modi. Velit beatae deserunt eligendi veritatis eos molestiae rem quidem iure molestias, odit repudiandae rerum tempora. Distinctio molestias minima sed, omnis assumenda necessitatibus sequi deserunt? Dicta nisi magnam molestias accusamus dignissimos cumque. Aliquam, suscipit rem veniam perspiciatis aspernatur distinctio iste. Iusto provident possimus ad debitis fuga suscipit iste aut nostrum asperiores amet praesentium vero expedita similique tenetur omnis, ducimus aspernatur, temporibus rem. Magni ex, officiis accusantium velit dolores impedit! Ipsam non ipsa minima explicabo neque, repellendus dolor commodi eos, nam ratione nobis qui veniam assumenda aliquid soluta cupiditate maxime nihil beatae? Vel soluta debitis veniam eveniet, vitae nemo possimus tempora ipsa in voluptate similique cupiditate voluptas earum excepturi aliquam asperiores numquam minus corporis, ab esse voluptates quod et? Unde sed delectus quod natus dolor quisquam mollitia similique neque veritatis. Ut fugiat sunt quidem, rerum autem, consectetur exercitationem alias ipsam accusantium maxime culpa earum cupiditate! Est deserunt molestiae iste soluta recusandae repudiandae, vitae corporis dolorum autem quasi sequi harum a velit maiores rem obcaecati maxime enim necessitatibus unde ad nemo. Doloribus consectetur quis expedita distinctio obcaecati voluptatum aspernatur qui dignissimos est nobis rem, incidunt repudiandae architecto possimus dolor nemo optio labore consequatur libero mollitia! Quos vel perferendis tempore cumque blanditiis consequatur neque atque molestias, porro assumenda ducimus provident sit nemo, praesentium ipsam ad adipisci dolorum aut. Quibusdam, eius quisquam nulla nihil eveniet est dignissimos deserunt. Dolore consectetur recusandae voluptatum aut eligendi esse, dignissimos impedit unde eum pariatur cupiditate, soluta labore, aspernatur praesentium aliquam.</p>
+            <p>
+              <br />
+              <br />
+              The Justice League, a team of superheroes, debuted in "The Brave and the Bold" #28 in 1960, created by writer Gardner Fox and artist Mike Sekowsky. The founding members included Superman, Batman, Wonder Woman, Flash, Green Lantern, Aquaman, and Martian Manhunter. Over the years, the roster expanded to include various DC Comics characters.
+              <br />
+              <br />
+
+            In the 1980s, the Justice League underwent a significant transformation with the series "Justice League International," focusing on a more comedic and international team dynamic. The 1990s saw the formation of "Justice League America" and "Justice League Europe." The animated series in the early 2000s, particularly "Justice League" and "Justice League Unlimited," gained widespread popularity, introducing the team to a broader audience.
+            <br />
+              <br />
+
+            The mid-2000s marked a comic reboot with "Justice League of America," featuring a core lineup including Superman, Batman, Wonder Woman, Green Lantern (Hal Jordan), Flash (Barry Allen), and Aquaman. The New 52 initiative in 2011 brought a revised origin for the team, attracting both praise and criticism.
+            <br />
+              <br />
+
+            The cinematic universe expanded the Justice League's reach with the release of "Man of Steel" (2013), "Batman v Superman: Dawn of Justice" (2016), and "Wonder Woman" (2017). The culmination occurred in 2017 with the release of "Justice League," directed by Zack Snyder.
+            <br />
+              <br />
+
+            However, internal issues and mixed critical reception led to a prolonged campaign by fans for a "Snyder Cut." In 2021, Warner Bros. released "Zack Snyder's Justice League," an extended and reimagined version of the film.
+            <br />
+              <br />
+
+            In the comic realm, subsequent story arcs explored new challenges and threats, with characters like Cyborg, Shazam, and others joining the team. In recent years, the Justice League has undergone various iterations, adapting to the evolving landscape of DC Comics, exploring diverse themes, and introducing fresh characters.
+            <br />
+              <br />
+
+            As of the present day, the Justice League continues to be a central fixture in DC Comics, embodying the spirit of collaboration and heroism against formidable adversaries, both on the page and on screen. The team's legacy endures through its rich history and ongoing contributions to the superhero genre.</p>
             <div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/d09sopS-I8U?si=PrImFT5CSg9djWLn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <img src="https://images5.alphacoders.com/129/1292651.jpg" alt="" />
