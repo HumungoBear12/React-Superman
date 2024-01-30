@@ -2,7 +2,7 @@ import React from 'react'
 
 const David = () => {
   return (
-    <div className="container-david">
+    <div id="david" className="container-david">
         <h2>David Cornsweat is the DCU's Superman</h2>
         {/* <hr /> */}
         <div>

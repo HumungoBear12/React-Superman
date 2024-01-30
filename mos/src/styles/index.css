@@ -452,67 +452,49 @@ body {
   color: rgb(188, 0, 0);
 }
 
-.container-timeline {
-  padding: 45px;
+.Container-Timeline {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: block;
 }
-.container-timeline h2 {
+.Container-Timeline h2 {
   text-align: center;
-  color: rgb(0, 94, 255);
-  font-weight: bold;
   font-size: 3rem;
+  color: rgb(0, 0, 77);
 }
-.container-timeline hr {
-  width: 90%;
-  margin-bottom: -1rem;
+.Container-Timeline .time-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.container-timeline .timeline {
-  width: 90%;
+.Container-Timeline .time-card div {
+  width: 30%;
+  height: 30rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.75rem;
+  padding: 15px;
+}
+.Container-Timeline .time-card div img {
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  padding: 15px;
-}
-.container-timeline .timeline .top {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
-}
-.container-timeline .timeline .top div {
-  margin-top: 1.5rem;
-  width: 32%;
-  height: 15rem;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border: 1px solid rgb(37, 0, 0);
   border-radius: 0.75rem;
-}
-.container-timeline .timeline .mid {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
-}
-.container-timeline .timeline .mid div {
-  margin-top: 1.5rem;
-  width: 32%;
-  height: 15rem;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border: 1px solid rgb(32, 0, 0);
-  border-radius: 0.75rem;
+  height: 70%;
+  width: 90%;
 }
-.container-timeline .timeline .bot {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
+.Container-Timeline .time-card div h3 {
+  margin-top: 0.5rem;
+  text-align: center;
 }
-.container-timeline .timeline .bot div {
-  margin-top: 1.5rem;
-  width: 32%;
-  height: 15rem;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border: 1px solid rgb(35, 0, 0);
-  border-radius: 0.75rem;
+.Container-Timeline .time-card div p {
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
 .container-jl {

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Justice = () => {
   return (
-    <div className="container-jl">
+    <div id="super" className="container-jl">
         {/* <h2>The Justice League</h2>
         <hr /> */}
         <div className="jl">
