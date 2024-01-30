@@ -1,0 +1,36 @@
+.container-david{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    margin-top: 2rem;
+    h2{
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(0, 1, 87);
+    }
+    div{
+        display:flex;
+        justify-content:space-evenly;
+        align-items: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        height: 50rem;
+        margin-bottom: 2rem;
+        border-radius: .75rem;
+        padding: 15px;
+        p{
+            width: 45%;
+            height: 95%;
+            border: 1px solid black;//remove this later
+            border-radius: .75rem;
+            
+        }
+        img{
+            height: 95%;
+            width: 45%;
+            border-radius: .75rem;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+    }
+}

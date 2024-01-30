@@ -1,17 +1,21 @@
 .container-article{
     width: 95%;
-    height: 53rem;
+    height: 55rem;
     border-radius:.75rem;
     margin-left: auto;
     margin-right: auto;
     // box-shadow: 2px 2px 2px 2px black;
+    p{
+        padding:15px;
+        
+    }
     h2{
         padding-top:15px;
         padding-left: 30px;
         font-size: 2rem;
     }
     hr{
-        
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         width: 95%;
     }
     .article-flex{
@@ -26,7 +30,8 @@
             div{
                 // width: 100%;
                 width: 54rem;
-                box-shadow: 2px 2px 2px 2px black;
+                // box-shadow: 2px 2px 2px 2px black;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                 // margin-left: 2rem;
                 height: 23rem;
                 border-radius: .75rem;
@@ -36,7 +41,8 @@
                 height: 22rem;
                 margin-top: 1rem;
                 border-radius: .75rem;
-                box-shadow: 2px 2px 2px 2px black;
+                // box-shadow: 2px 2px 2px 2px black;
+                box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
             }
         }
         img{
@@ -44,6 +50,7 @@
             width: 30rem;
             height:46rem;
             box-shadow: 2px 2px 2px 2px black;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         }
     }
 }

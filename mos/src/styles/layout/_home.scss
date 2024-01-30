@@ -1,11 +1,11 @@
 .container-home{
     .container-header{
-        height: 24rem;
+        height: 34rem;
         width: 100%;
         background-image: url("https://wallpapercave.com/wp/Suzldiu.jpg");
         background-size: cover;
         border-bottom: .5rem rgb(0, 0, 0) solid;
-        
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     }
     hr{
         width: 100%;
@@ -14,6 +14,20 @@
         display: block;
         border-bottom: 1px black solid;
         box-shadow: 1px 1px 1px 1px;
+    }
+    .JL{
+        width: 100%;
+        height:40rem;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+    }
+    .David{
+        width: 100%;
+        height: 35rem;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
     }
     .container-flex{
         display: flex;
@@ -26,12 +40,7 @@
         hr{
             width: 100%;
         }
-        ul{
 
-        }
-        li{
-
-        }
     }
     .home-video{
         h2{
@@ -44,6 +53,7 @@
         }
         iframe{
             box-shadow: 2px 2px 2px 2px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
         }
     }
     }
