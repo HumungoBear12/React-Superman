@@ -7,9 +7,9 @@ const Footer = () => {
           <h2>Superman</h2>
           <hr />
           <div>
-            <a href=""><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-twitter-outline-256.png" alt="Twitter" /></a>
-            <a href=""> <img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-256.png" alt="Github" /></a>
-            <a href=""><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-256.png" alt="LinkedIn" /></a>
+            <a href="https://twitter.com/_Amakris12"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-twitter-outline-256.png" alt="Twitter" /></a>
+            <a href="https://github.com/HumungoBear12"> <img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-256.png" alt="Github" /></a>
+            <a href="https://www.linkedin.com/in/andrew-makris-441969258/"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-256.png" alt="LinkedIn" /></a>
           </div>
         </div>
         <div className='two'>
